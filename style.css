@@ -726,3 +726,34 @@ footer span a:hover {
     line-height: 38px;
   }
 }
+.project-link {
+  color: #1a0dab; /* Classic blue link */
+  text-decoration: underline;
+  font-weight: normal;
+  background: none;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  display: inline;
+  transition: color 0.2s ease;
+  padding: 0px !important;
+  background: transparent !important;
+  border: none !important;
+  color: #1a0dab !important; /* Classic blue link */
+  font-size: smaller !important;
+}
+
+.project-link:hover {
+  color: #c00; /* Red on hover */
+}
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 14px; /* Optional: controls number and text size */
+  line-height: 1.6;
+}
+
+ol li {
+  margin-bottom: 4px; /* Space between list items */
+}
